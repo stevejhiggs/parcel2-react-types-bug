@@ -29,20 +29,3 @@ When build is ran without a parcel-cache, provided a type entry point is provide
 ```
 
 You will get these errors even if you switch to using `@parcel/transformer-typescript-tsc` or explictly add a tsconfig with the above values set. Interestingly types do successfully generate.
-
-## Bug 2 parcel seems to only check "dependancies" for the existence of transformer-react-refresh-wrap
-
-If you run `yarn watch` you will get the following error:
-
-```
-@parcel/resolver-default: External dependency "@parcel/transformer-react-refresh-wrap" is not declared in package.json.
-
-  /code/personal/parcel2-react-types-bug/package.json:14:3
-    13 |   },
-  > 14 |   "dependencies": {
-  >    |   ^^^^^^^^^^^^^^
-    15 |     "react": "17",
-    16 |     "react-dom": "17"
-```
-
-even though it is present in "devDependencies". Moving the entry in package.json to "dependencies" fixes this error but this isn't where this package belongs.

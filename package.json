@@ -8,7 +8,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "watch": "parcel watch",
+    "watch": "parcel",
     "build": "parcel build"
   },
   "dependencies": {
