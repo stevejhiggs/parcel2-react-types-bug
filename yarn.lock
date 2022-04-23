@@ -402,7 +402,7 @@
     "@parcel/utils" "2.5.0"
     posthtml "^0.16.4"
 
-"@parcel/packager-ts@^2.5.0":
+"@parcel/packager-ts@2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@parcel/packager-ts/-/packager-ts-2.5.0.tgz#3b4af9ab67e19213239c88d211cfad162c62424f"
   integrity sha512-BrH2Gum5EKlWJEJ92dFrH7QTSc7A7LxyElv6c2LPc5sI3z52JDdjQsUMEHqm5Fz25D79Ca/xzVvTWQaYA7XyRA==
@@ -594,7 +594,7 @@
   dependencies:
     "@parcel/plugin" "2.5.0"
 
-"@parcel/transformer-react-refresh-wrap@2.5.0", "@parcel/transformer-react-refresh-wrap@^2.5.0":
+"@parcel/transformer-react-refresh-wrap@2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@parcel/transformer-react-refresh-wrap/-/transformer-react-refresh-wrap-2.5.0.tgz#e1ef71218efb21a78677e8770fb6bcf753caf35c"
   integrity sha512-VPqVBxhTN4OQwcjsdyxrv+smjAm4s6dbSWAplgPwdOITMv+a0tjhhJU37WnRC+xxTrbEqRcOt96JvGOkPb8i7g==
@@ -617,7 +617,7 @@
     posthtml-render "^3.0.0"
     semver "^5.7.1"
 
-"@parcel/transformer-typescript-types@^2.5.0":
+"@parcel/transformer-typescript-types@2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-types/-/transformer-typescript-types-2.5.0.tgz#5f22ed88f1d439a95abd976b9d94f67b961c4541"
   integrity sha512-O+v+vEvgQDj5U1O8C12nYeU9kYOdYaznobWgE21WYSPEV2JD9ppaJVTDoNTI5Lx58gmjc1hndY169o6N6RaV6A==
