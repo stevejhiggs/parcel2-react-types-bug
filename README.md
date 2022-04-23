@@ -1,6 +1,8 @@
 # parcel2-react-types-bug
 
-Reproduction of bugs generating typescript type in parcel 2 rc0.
+Reproduction of bugs generating typescript type in parcel 2 rc0. 
+
+* This appears to be fixed in parcel 2.5 or later *
 
 ## Bug 1: Error generating types for a library
 
